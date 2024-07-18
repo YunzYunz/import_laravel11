@@ -10,7 +10,7 @@ use PhpOffice\PhpSpreadsheet\Shared\Date;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 use Maatwebsite\Excel\Imports\HeadingRowFormatter;
 
-HeadingRowFormatter::default('none');
+HeadingRowFormatter::default('none'); // Untuk Heading agar sesuai Header Excel
 
 class UsersImport implements ToModel, WithHeadingRow
 {
